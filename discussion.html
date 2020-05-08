@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: #f8ebe9;">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+article-title {
+  font-family: "Montserrat"; 
+  font-size: 36px; 
+  font-style: thin; 
+  font-variant: thin; 
+  font-weight: 400; 
+  line-height: 40px;
+}
+
+h1 { 
+  font-family: "Montserrat"; 
+  font-size: 36px; 
+  font-style: thin; 
+  font-variant: thin; 
+  font-weight: 400; 
+  line-height: 40px;
+  color: #5a5961;
+  } 
+
+h3 { 
+  font-family: "Montserrat"; 
+  font-size: 14px; 
+  font-style: thin; 
+  font-variant: thin;
+  font-weight: 450; 
+  line-height: 15.4px; 
+  color: #5a5961;
+  } 
+
+p { 
+  font-family: "Montserrat"; 
+  font-size: 14px; 
+  font-style: thin; 
+  font-variant: thin; 
+  font-weight: 400; 
+  line-height: 20px; 
+  color: #5a5961;
+  } 
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 20px;
+  /*height: 3000px; /* Should be removed. Only for demonstration */
+}
+
+/* Left and right column */
+.column.side {
+  width: 30%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+
+<head>
+<title>Annie's Notes</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Notes</h1>
+</div>
+
+<!-- Article Grid -->
+<div class="row">
+  <div class="column side" style="background-color:#f8ebe9;">
+  </div>
+
+  <div class="column middle" style="background-color:#f8ebe9;">
+    <div class="container">
+  <hr>
+  <div class="article list">
+    
+    <!--item-->
+    <div class="article-item">
+      <h3>
+        <a href="./Discussions/297_Discussion_01.pdf" style="color:#aebb8f">Discussion 1</a>
+        <span style="font-size:100%;"></span>
+      </h3>
+      <p>
+        Complex numbers
+      </p>
+      <p style="font-size: 70%;">2019-01-15</p>
+    </div>
+    <br>
+    <!--item-->
+    <div class="article-item">
+      <h3>
+        <a href="./Discussions/297_Discussion_02.pdf" style="color:#aebb8f">Discussion 2</a>
+        <span style="font-size:60%;"></span>
+      </h3>
+      <p>
+        Sets and Topological Spaces
+      </p>
+      <p style="font-size: 70%;">2019-01-22</p>
+    </div>
+    <br>
+  <!--item-->
+    <div class="article-item">
+      <h3>
+        <a href="./Discussions/297_Discussion_03.pdf" style="color:#aebb8f">Discussion 3</a>
+        <span style="font-size:60%;"></span>
+      </h3>
+      <p>
+        Topological Properties
+      </p>
+      <p style="font-size: 70%;">2019-01-29</p>
+    </div>
+    <br>
+  <!--item-->
+    <div class="article-item">
+      <h3>
+        <a href="./Discussions/297_Discussion_04.pdf" style="color:#aebb8f">Discussion 4</a>
+        <span style="font-size:60%;"></span>
+      </h3>
+      <p>
+        Topological Properties Revisited
+      </p>
+      <p style="font-size: 70%;">2019-02-05</p>
+    </div>
+    <br>
+  <!--item-->
+    <div class="article-item">
+      <h3>
+        <a href="./Discussions/297_Discussion_05.pdf" style="color:#aebb8f">Discussion 5</a>
+        <span style="font-size:60%;"></span>
+      </h3>
+      <p>
+        Exercises
+      </p>
+      <p style="font-size: 70%;">2019-02-12</p>
+    </div>
+    <br>
+  <!--item-->
+    <div class="article-item">
+      <h3>
+        <a href="./Discussions/297_Discussion_06.pdf" style="color:#aebb8f">Discussion 6</a>
+        <span style="font-size:60%;"></span>
+      </h3>
+      <p>
+        More Topological Concepts
+      </p>
+      <p style="font-size: 70%;">2019-02-20</p>
+    </div>
+    <br>
+  <!--item-->
+    <div class="article-item">
+      <h3>
+        <a href="./Discussions/297_Discussion_07.pdf" style="color:#aebb8f">Discussion 7</a>
+        <span style="font-size:60%;"></span>
+      </h3>
+      <p>
+        Connected Subspaces of the Real Line
+      </p>
+      <p style="font-size: 70%;">2019-02-27</p>
+    </div>
+    <br>
+  <!--item-->
+    <div class="article-item">
+      <h3>
+        <a href="./Discussions/297_Discussion_08.pdf" style="color:#aebb8f">Discussion 8</a>
+        <span style="font-size:60%;"></span>
+      </h3>
+      <p>
+        Path-connectedness
+      </p>
+      <p style="font-size: 70%;">2019-03-15</p>
+    </div>
+    <br>
+  <!--item-->
+    <div class="article-item">
+      <h3>
+        <a href="./Discussions/297_Discussion_09.pdf" style="color:#aebb8f">Discussion 9</a>
+        <span style="font-size:60%;"></span>
+      </h3>
+      <p>
+        Product Topology
+      </p>
+      <p style="font-size: 70%;">2019-03-20</p>
+    </div>
+    <br>
+  <!--item-->
+    <div class="article-item">
+      <h3>
+        <a href="./Discussions/297_Discussion_10.pdf" style="color:#aebb8f">Discussion 10</a>
+        <span style="font-size:60%;"></span>
+      </h3>
+      <p>
+        Introduction to Groups
+      </p>
+      <p style="font-size: 70%;">2019-03-27</p>
+    </div>
+    <br>
+  <!--item-->
+    <div class="article-item">
+      <h3>
+        <a href="./Discussions/297_Discussion_11.pdf" style="color:#aebb8f">Discussion 11</a>
+        <span style="font-size:60%;"></span>
+      </h3>
+      <p>
+        Group Homomorphism
+      </p>
+      <p style="font-size: 70%;">2019-04-03</p>
+    </div>
+    <br>
+  <!--item-->
+    <div class="article-item">
+      <h3>
+        <a href="./Discussions/297_Discussion_12.pdf" style="color:#aebb8f">Discussion 12</a>
+        <span style="font-size:60%;"></span>
+      </h3>
+      <p>
+        Complex Functions
+      </p>
+      <p style="font-size: 70%;">2019-04-10</p>
+    </div>
+  </div>
+  <hr>
+</div>
+
+  </div>
+
+  <div class="column side" style="background-color:#f8ebe9;">
+  </div>
+</div>
+
+
+
+<div class="footer">
+  <p style="font-size: 70%;">"There is always something left to love."</p>
+</div>
+
+</body>
+</html>
