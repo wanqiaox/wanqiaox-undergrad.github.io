@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+h1 { 
+  font-family: "Montserrat"; 
+  font-size: 36px; 
+  font-style: thin; 
+  font-variant: thin; 
+  font-weight: 400; 
+  line-height: 40px;
+  color: #5a5961;
+  } 
+
+h3 { 
+  font-family: "Montserrat"; 
+  font-size: 14px; 
+  font-style: thin; 
+  font-variant: thin;
+  font-weight: 450; 
+  line-height: 15.4px; 
+  color: #5a5961;
+  } 
+
+p { 
+  font-family: "Montserrat"; 
+  font-size: 14px; 
+  font-style: thin; 
+  font-variant: thin; 
+  font-weight: 400; 
+  line-height: 20px; 
+  color: #5a5961;
+  } 
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 22%; /* IE10 */
+  flex: 22%;
+  max-width: 22%;
+  padding: 0 10px;
+}
+
+.column img {
+  margin-top: 10px;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Style the footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Gallery</h1>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="GirlRed.png" style="width:100%">
+    <img src="Annie_Moon.png" style="width:100%">
+    <img src="Rose.jpg" style="width:100%">
+    <img src="Red_Sea.png" style="width:100%">
+    <img src="Rachel_birthday_.jpg" style="width:100%">
+
+  </div>
+  <div class="column">
+    <img src="GirlPinkHair.PNG" style="width:100%">
+    <img src="Ziyang_Heart.png" style="width:100%">
+    <img src="Link&Mipha.JPG" style="width:100%">
+    <img src="Shirley_graduation.JPG" style="width:100%">
+    <img src="Home.jpg" style="width:100%">
+
+  </div>  
+  <div class="column">
+    <img src="Woman.jpg" style="width:100%">
+    <img src="Jack gf.png" style="width:100%">
+    <img src="Self-portrait.jpg" style="width:100%">
+    <img src="autumn.JPG" style="width:100%">
+
+  </div>
+</div>
+
+<div class="footer">
+  <p style="font-size: 70%;">"There is always something left to love."</p>
+</div>
+
+</body>
+</html>
